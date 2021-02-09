@@ -1,0 +1,19 @@
+.line{
+    height: 6px;
+    background-color: darkorchid;
+    width: 70px;
+    margin: 8px auto;
+}
+body{
+    text-align: center;
+}
+.game{
+    width: 400px;
+    height: 400px;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
